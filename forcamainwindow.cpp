@@ -10,6 +10,7 @@ ForcaMainWindow::ForcaMainWindow(QWidget *parent) :
 
 ForcaMainWindow::~ForcaMainWindow()
 {
+    int y;
     delete ui;
 }
 

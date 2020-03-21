@@ -3,9 +3,11 @@
 
 int main(int argc, char *argv[])
 {
+    int x = 10;
+
     QApplication a(argc, argv);
-    ForcaMainWindow w;
-    w.show();
+    ForcaMainWindow JANELA;
+    JANELA.show();
 
     return a.exec();
 }
